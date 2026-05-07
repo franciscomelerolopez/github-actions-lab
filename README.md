@@ -18,5 +18,5 @@ TAREA 2 CI ( En el fichero DiarioPractica3.md se observa capturas de la ejecuci√
 4. Las actions usadas. Hay actions externas (actions/checkout@v4, actions/setup-node@v4, y una manual por mi).
 5. Comentario adicional
      Hay primeros Run realizado sobre mi propio docker hub
-   Posteriormente lo realizo sobre sobre docker registry.
+   Posteriormente lo realizo sobre sobre docker registry en otro fichero que se llama cd-registry.yml (lo he ejecutado en master sin darme cuenta) directamente ah√≠.
    

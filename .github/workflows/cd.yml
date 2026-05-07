@@ -1,4 +1,4 @@
-name: CD Francisco Javier Melero Lopez
+name: CD Francisco Javier Melero Lopez CursoCep
 
 on:
   workflow_dispatch:

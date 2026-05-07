@@ -9,11 +9,14 @@ TAREA 1 CI
      Posteriormente se puede ver un push-requests cuando he cambio un fichero del directorio hangman-front y un merge del pull-requests una vez ejecutado el workflow en la rama workflow-ci.
      En el fichero DiarioPractica3.md se observa capturas de la ejecución de todo.,
    
-TAREA 2 CI
+TAREA 2 CI ( En el fichero DiarioPractica3.md se observa capturas de la ejecución de todo.,)
 
 1. Eventos que lanza workflow. En este caso lo vamos a realizar manualmente.
-2. Los pasos que se dan. Yo tengo  3 jobs encandenados que se ejecutan todos sobre ubuntu-latest, para build, test y bye (este se ejecutará aunque no falle alguno de los otros), como ocurre con el test.
-3. Las actions usadas. Hay actions externas (actions/checkout@v4, actions/setup-node@v4, y una manual por mi).
-4. Comentario adicional
-     Hay primeros Run realizado sobre mi propio docker hub, y después lo hago sobre docker registry.
-     En el fichero DiarioPractica3.md se observa capturas de la ejecución de todo.,
+2. Tengo un sólo jobs que se llama delivery que se ejecuta todo sobre ubuntu-latest
+     a. Steps (Acciones): Checkout del repositorio, version de docker, poner la hora que se ejecuta, hacer login en docker hub (para comprobar usando variables secretas, configurar docker buildx, y construir-
+        
+4. Las actions usadas. Hay actions externas (actions/checkout@v4, actions/setup-node@v4, y una manual por mi).
+5. Comentario adicional
+     Hay primeros Run realizado sobre mi propio docker hub
+   Posteriormente lo realizo sobre sobre docker registry.
+   

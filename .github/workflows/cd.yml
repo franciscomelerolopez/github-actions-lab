@@ -11,5 +11,5 @@ jobs:
         run: docker -v
     - name: Construyendo una images
         working-directory: ./hangman-api
-        run: docker build -t franciscomelerolopez/hangman-api:latest .
-        
+        run: docker build -t franciscomelerolopez/hangman-api-franciscomelero:latest .
+

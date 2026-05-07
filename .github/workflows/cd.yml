@@ -14,6 +14,11 @@ jobs:
       - name: Get Docker version
         run: docker -v
 
-      - name: Construyendo una imagen
-        working-directory: ./hangman-api
-        run: docker build -t franciscomelerolopez/hangman-api-franciscomelero:latest .
+      - name: Docker login
+        uses: docker/login-action@v4
+        with:
+          username: ${{ vars.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+          
+        
+

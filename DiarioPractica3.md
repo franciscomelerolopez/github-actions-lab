@@ -16,3 +16,4 @@ Subiendo todo lo que hay, y por tanto al realizar un cambio en master, pues se l
 ![Captura11](capturas/captura11.JPG)
 ![Captura12](capturas/captura12.JPG)
 
+### Tarea 2 CD

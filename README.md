@@ -1,4 +1,4 @@
-Se explica la practica como la información solicitada.
+Se explica la practica como la información solicitada (En DiarioPractica3.md se puede observar como se ha realizado todo)
 
 1. Eventos que lanza workflow. Lo lanzas cuando se hagan push y pull-request sobre la rama master (no main) pero sólo cuando se cambie algo del directorio hangman-fron, no de otro.
 2. Los pasos que se dan. Yo tengo  3 jobs encandenados que se ejecutan todos sobre ubuntu-latest, para build, test y bye (este se ejecutará aunque no falle alguno de los otros), como ocurre con el test.

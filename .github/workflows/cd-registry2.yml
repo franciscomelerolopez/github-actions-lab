@@ -33,4 +33,4 @@ jobs:
         with:
           context: ./hangman-api
           push: true
-          tags: ghcr.io/${{ github.repository }}/hangman-api:latest
+          tags: ghcr.io/${{ github.actor }}/hangman-api:latest
